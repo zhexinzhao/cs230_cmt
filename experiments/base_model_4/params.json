@@ -1,0 +1,20 @@
+{
+    "learning_rate": 1e-3,
+    "batch_size": 32,
+    "num_epochs": 100,
+
+    "num_channels": 8,
+    "use_batch_norm": false,
+    "bn_momentum": 0.9,
+
+    "loss_w_ratio": 1.0,
+    "loss_d_ratio": 1.0,
+
+    "data_size": 256,
+    "use_random_flip": false,
+    "num_labels": 2,
+
+    "num_parallel_calls": 4,
+    "save_summary_steps": 1,
+    "epsilon": 1e-8
+}
